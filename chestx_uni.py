@@ -16,21 +16,14 @@ from torch.utils.data import DataLoader, TensorDataset
 from chestx_utils import *
 from torchvision import models
 def compute_pos_weights(train_loader):
-    """
-    Compute positive weights for BCEWithLogitsLoss based on class frequencies
-    
-    Returns:
-        torch.Tensor: Tensor of shape [num_classes] with positive weights
-    """
-    num_pos = torch.zeros(14)  # Assuming 14 classes for chest X-ray
+    num_pos = torch.zeros(14)  
     num_neg = torch.zeros(14)
     
     for _, _, targets in train_loader:
         num_pos += targets.sum(dim=0)
         num_neg += (1 - targets).sum(dim=0)
     
-    # Compute ratio of negative to positive examples
-    pos_weights = num_neg / (num_pos + 1e-5)  # Add small epsilon to prevent division by zero
+    pos_weights = num_neg / (num_pos + 1e-5)  
     
     # Cap weights to prevent extreme values (optional)
     pos_weights = torch.clamp(pos_weights, min=0.5, max=10.0)
