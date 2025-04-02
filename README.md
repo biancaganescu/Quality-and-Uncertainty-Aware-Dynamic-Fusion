@@ -1,10 +1,10 @@
 # Quality-and-Uncertainty-Aware-Dynamic-Fusion
-We extend DynMM repository the with quality assessor and uncertainty estimator modules to improve robustness against poor-quality or corrupt data.
+We extend [DynMM](https://github.com/zihuixue/DynMM) repository the with quality assessor and uncertainty estimator modules to improve robustness against poor-quality or corrupt data.
 
 ## Setup:
 To reproduce our results:
 
-(1) Clone the MultiBench library and setup the virtual environment in the instructions.
+(1) Clone the [MultiBench](https://github.com/pliang279/MultiBench) library and setup the virtual environment in the instructions.
 
 (2) Clone the DynMM repository.
 
@@ -12,7 +12,7 @@ To reproduce our results:
 
 (4) Add the modified ModalityLevel folder to the MultiBench folder.
 
-(5) Clone the mm-health-bench repository into the MultiBench folder.
+(5) Clone the [mm-health-bench](https://github.com/konst-int-i/mm-health-bench) repository into the MultiBench folder.
 
 (6) Download the ChestX dataset following the mm-health-bench instructions.
 
@@ -47,4 +47,6 @@ The functions that add noise and load noisy ChestX data are available in ```nois
 The quality and uncertainty-aware loss function is defined in ```train_uq_loss.py```.
 
 ```chestx_utils.py``` contains helper functions to load the clean ChestX dataset, analyse class imbalance and define the ```pos_weight``` vector for the Pytorch ```BCEWithLogitsLoss``` criterion to handle class imbalance.
+
+The results from our experiments are available in ```results/```.
 
