@@ -1,0 +1,122 @@
+Loaded split indices from split_indices.pth
+Creating noisy data loaders with consistent indices
+Loaded existing noise indices for train split from /home/bianca/Code/MultiBench/noise_indices/train_af7b9be1975bdda0852fe1a81b6ad4b3_2941_64.json
+Loaded existing noise indices for val split from /home/bianca/Code/MultiBench/noise_indices/val_af7b9be1975bdda0852fe1a81b6ad4b3_367_64.json
+Loaded existing noise indices for test split from /home/bianca/Code/MultiBench/noise_indices/test_af7b9be1975bdda0852fe1a81b6ad4b3_369_64.json
+mean branch weight 0.6198, 0.3802
+--------------------------------------------------
+Epoch 0 | Train loss 0.0751 | Train CE loss 0.0472 | Val loss 0.2175 | patience 0
+f1 micro: 0.873 | f1 macro: 0.649 
+Saving Best
+mean branch weight 0.6173, 0.3827
+--------------------------------------------------
+Epoch 1 | Train loss 0.0698 | Train CE loss 0.0452 | Val loss 0.2183 | patience 0
+f1 micro: 0.872 | f1 macro: 0.663 
+Saving Best
+mean branch weight 0.6275, 0.3725
+--------------------------------------------------
+Epoch 2 | Train loss 0.0695 | Train CE loss 0.0456 | Val loss 0.2078 | patience 0
+f1 micro: 0.881 | f1 macro: 0.677 
+Saving Best
+mean branch weight 0.6002, 0.3998
+--------------------------------------------------
+Epoch 3 | Train loss 0.0727 | Train CE loss 0.0503 | Val loss 0.2082 | patience 0
+f1 micro: 0.881 | f1 macro: 0.666 
+mean branch weight 0.6264, 0.3736
+--------------------------------------------------
+Epoch 4 | Train loss 0.0728 | Train CE loss 0.0504 | Val loss 0.2203 | patience 1
+f1 micro: 0.878 | f1 macro: 0.677 
+mean branch weight 0.6099, 0.3901
+--------------------------------------------------
+Epoch 5 | Train loss 0.0684 | Train CE loss 0.0469 | Val loss 0.2280 | patience 2
+f1 micro: 0.874 | f1 macro: 0.688 
+Saving Best
+mean branch weight 0.6213, 0.3787
+--------------------------------------------------
+Epoch 6 | Train loss 0.0723 | Train CE loss 0.0501 | Val loss 0.2395 | patience 0
+f1 micro: 0.875 | f1 macro: 0.656 
+mean branch weight 0.6260, 0.3740
+--------------------------------------------------
+Epoch 7 | Train loss 0.0785 | Train CE loss 0.0568 | Val loss 0.2313 | patience 1
+f1 micro: 0.874 | f1 macro: 0.671 
+mean branch weight 0.6357, 0.3643
+--------------------------------------------------
+Epoch 8 | Train loss 0.0710 | Train CE loss 0.0492 | Val loss 0.2323 | patience 2
+f1 micro: 0.877 | f1 macro: 0.689 
+Saving Best
+mean branch weight 0.6287, 0.3713
+--------------------------------------------------
+Epoch 9 | Train loss 0.0648 | Train CE loss 0.0424 | Val loss 0.2155 | patience 0
+f1 micro: 0.887 | f1 macro: 0.657 
+mean branch weight 0.6073, 0.3927
+--------------------------------------------------
+Epoch 10 | Train loss 0.0641 | Train CE loss 0.0423 | Val loss 0.2195 | patience 1
+f1 micro: 0.872 | f1 macro: 0.676 
+mean branch weight 0.5085, 0.4915
+--------------------------------------------------
+Epoch 11 | Train loss 0.0666 | Train CE loss 0.0467 | Val loss 0.2424 | patience 2
+f1 micro: 0.875 | f1 macro: 0.669 
+mean branch weight 0.5686, 0.4314
+--------------------------------------------------
+Epoch 12 | Train loss 0.0691 | Train CE loss 0.0456 | Val loss 0.2202 | patience 3
+f1 micro: 0.894 | f1 macro: 0.692 
+Saving Best
+mean branch weight 0.5950, 0.4050
+--------------------------------------------------
+Epoch 13 | Train loss 0.0755 | Train CE loss 0.0550 | Val loss 0.2303 | patience 0
+f1 micro: 0.880 | f1 macro: 0.681 
+mean branch weight 0.6048, 0.3952
+--------------------------------------------------
+Epoch 14 | Train loss 0.0639 | Train CE loss 0.0433 | Val loss 0.2280 | patience 1
+f1 micro: 0.873 | f1 macro: 0.647 
+mean branch weight 0.5963, 0.4037
+--------------------------------------------------
+Epoch 15 | Train loss 0.0657 | Train CE loss 0.0450 | Val loss 0.2324 | patience 2
+f1 micro: 0.896 | f1 macro: 0.708 
+Saving Best
+mean branch weight 0.6193, 0.3807
+--------------------------------------------------
+Epoch 16 | Train loss 0.0708 | Train CE loss 0.0501 | Val loss 0.2365 | patience 0
+f1 micro: 0.875 | f1 macro: 0.649 
+mean branch weight 0.5471, 0.4529
+--------------------------------------------------
+Epoch 17 | Train loss 0.0575 | Train CE loss 0.0345 | Val loss 0.2532 | patience 1
+f1 micro: 0.873 | f1 macro: 0.684 
+mean branch weight 0.5929, 0.4071
+--------------------------------------------------
+Epoch 18 | Train loss 0.0691 | Train CE loss 0.0470 | Val loss 0.2285 | patience 2
+f1 micro: 0.887 | f1 macro: 0.674 
+mean branch weight 0.6032, 0.3968
+--------------------------------------------------
+Epoch 19 | Train loss 0.0665 | Train CE loss 0.0457 | Val loss 0.2071 | patience 3
+f1 micro: 0.884 | f1 macro: 0.685 
+mean branch weight 0.6059, 0.3941
+--------------------------------------------------
+Epoch 20 | Train loss 0.0703 | Train CE loss 0.0502 | Val loss 0.2206 | patience 4
+f1 micro: 0.875 | f1 macro: 0.663 
+mean branch weight 0.6035, 0.3965
+--------------------------------------------------
+Epoch 21 | Train loss 0.0661 | Train CE loss 0.0449 | Val loss 0.2453 | patience 5
+f1 micro: 0.874 | f1 macro: 0.670 
+mean branch weight 0.6080, 0.3920
+--------------------------------------------------
+Epoch 22 | Train loss 0.0614 | Train CE loss 0.0411 | Val loss 0.2399 | patience 6
+f1 micro: 0.889 | f1 macro: 0.663 
+mean branch weight 0.6033, 0.3967
+--------------------------------------------------
+Epoch 23 | Train loss 0.0686 | Train CE loss 0.0483 | Val loss 0.2295 | patience 7
+f1 micro: 0.876 | f1 macro: 0.665 
+Training Time: 438.0105586051941
+Training Peak Mem: 2859.75390625
+Training Params: 57854252
+Testing model ./log/test_chestx/DynMMNet_freezeTrue_reg_0.05_noise_swap_05.pt:
+------------------------------Test data------------------------------
+f1_micro: 84.10 | f1_macro: 62.55
+Branch selection statistics:
+Branch 1: selected 229.0 times (62.06% of samples)
+Branch 2: selected 140.0 times (37.94% of samples)
+
+mean branch weight 0.6206, 0.3794
+0.3794037997722626
+Total Flops 9.64M
+0.8410351201478743 0.6255348975663196 9.638486862182617

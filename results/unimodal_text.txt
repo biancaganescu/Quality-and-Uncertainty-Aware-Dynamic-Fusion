@@ -1,0 +1,38 @@
+Loaded split indices from split_indices.pth
+Epoch 0 train loss: tensor(0.7216, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 0 valid loss: tensor(0.6380, device='cuda:0') f1_micro: 0.5404971932638332 f1_macro: 0.18402644200219903
+Saving Best
+Epoch 1 train loss: tensor(0.6064, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 1 valid loss: tensor(0.5393, device='cuda:0') f1_micro: 0.520818630910374 f1_macro: 0.2096203459787229
+Saving Best
+Epoch 2 train loss: tensor(0.5147, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 2 valid loss: tensor(0.4445, device='cuda:0') f1_micro: 0.6288 f1_macro: 0.2675002335426611
+Saving Best
+Epoch 3 train loss: tensor(0.4415, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 3 valid loss: tensor(0.4056, device='cuda:0') f1_micro: 0.7128532360984502 f1_macro: 0.3457835255942691
+Saving Best
+Epoch 4 train loss: tensor(0.3914, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 4 valid loss: tensor(0.3626, device='cuda:0') f1_micro: 0.7058823529411764 f1_macro: 0.38839071468223624
+Saving Best
+Epoch 5 train loss: tensor(0.3442, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 5 valid loss: tensor(0.3100, device='cuda:0') f1_micro: 0.7340241796200345 f1_macro: 0.475189693099438
+Saving Best
+Epoch 6 train loss: tensor(0.2998, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 6 valid loss: tensor(0.2764, device='cuda:0') f1_micro: 0.7624113475177304 f1_macro: 0.49456214346804467
+Saving Best
+Epoch 7 train loss: tensor(0.2791, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 7 valid loss: tensor(0.2539, device='cuda:0') f1_micro: 0.7884788478847884 f1_macro: 0.5133066660144217
+Saving Best
+Epoch 8 train loss: tensor(0.2468, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 8 valid loss: tensor(0.2336, device='cuda:0') f1_micro: 0.7792672028596962 f1_macro: 0.5357650296680573
+Saving Best
+Epoch 9 train loss: tensor(0.2219, device='cuda:0', grad_fn=<DivBackward0>)
+Epoch 9 valid loss: tensor(0.2540, device='cuda:0') f1_micro: 0.6740331491712708 f1_macro: 0.4528560167866802
+Training Time: 77.90409135818481
+Training Peak Mem: 2908.2578125
+Training Params: 13208846
+Testing model ./log/test_chestx/model_text.pt and ./log/test_chestx/head_text.pt:
+loss: tensor(0.2692, device='cuda:0')
+ f1_micro: 0.8169991326973114 f1_macro: 0.5922095638473603
+Inference Time: 1.2736618518829346
+Inference Params: 13208846

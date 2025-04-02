@@ -1,0 +1,66 @@
+Loaded split indices from split_indices.pth
+Creating noisy data loaders with consistent indices
+Loaded existing noise indices for train split from /home/bianca/Code/MultiBench/noise_indices/train_2265e9e939543cc32125aba6f64f9fd5_2941_32.json
+Loaded existing noise indices for val split from /home/bianca/Code/MultiBench/noise_indices/val_2265e9e939543cc32125aba6f64f9fd5_367_32.json
+Loaded existing noise indices for test split from /home/bianca/Code/MultiBench/noise_indices/test_2265e9e939543cc32125aba6f64f9fd5_369_32.json
+mean branch weight 0.7219, 0.2781
+----------------------------------------------------------------------
+Epoch 1/5:
+Train loss: 0.8082 | Task loss: 0.4187 | Resource loss: 0.7790
+Val loss: 0.8107 | F1 micro: 0.8056 | F1 macro: 0.5774
+Branch weights: 0.2781
+No samples processed yet.
+New best F1 macro: 0.5774, saving model to ./log/test_chestx/DynMMNet_freeze_uqTrue_reg_0.5_noisedropout_05uq_lossTrue.pt
+mean branch weight 0.6447, 0.3553
+----------------------------------------------------------------------
+Epoch 2/5:
+Train loss: 0.6007 | Task loss: 0.4342 | Resource loss: 0.3330
+Val loss: 0.8762 | F1 micro: 0.7963 | F1 macro: 0.5293
+Branch weights: 0.3553
+No samples processed yet.
+No improvement, patience: 1/7
+mean branch weight 0.5498, 0.4502
+----------------------------------------------------------------------
+Epoch 3/5:
+Train loss: 0.5005 | Task loss: 0.3780 | Resource loss: 0.2450
+Val loss: 0.7997 | F1 micro: 0.8121 | F1 macro: 0.6046
+Branch weights: 0.4502
+No samples processed yet.
+New best F1 macro: 0.6046, saving model to ./log/test_chestx/DynMMNet_freeze_uqTrue_reg_0.5_noisedropout_05uq_lossTrue.pt
+mean branch weight 0.4688, 0.5312
+----------------------------------------------------------------------
+Epoch 4/5:
+Train loss: 0.4309 | Task loss: 0.3431 | Resource loss: 0.1757
+Val loss: 0.8111 | F1 micro: 0.8144 | F1 macro: 0.5367
+Branch weights: 0.5312
+No samples processed yet.
+No improvement, patience: 1/7
+mean branch weight 0.4232, 0.5768
+----------------------------------------------------------------------
+Epoch 5/5:
+Train loss: 0.3986 | Task loss: 0.3364 | Resource loss: 0.1244
+Val loss: 0.7643 | F1 micro: 0.8162 | F1 macro: 0.5543
+Branch weights: 0.5768
+No samples processed yet.
+No improvement, patience: 2/7
+Training completed. Best F1 macro: 0.6046
+Testing model ./log/test_chestx/DynMMNet_freeze_uqTrue_reg_0.5_noisedropout_05uq_lossTrue.pt:
+------------------------------Test data------------------------------
+mean branch weight 0.7371, 0.2629
+Total Flops 7.35M
+----------------------------------------------------------------------
+Test Results:
+Loss: 0.5211 | F1 micro: 0.7896 | F1 macro: 0.5984
+Average branch fusion weight: 0.2629
+Effective FLOPs: 7.35M
+Branch selection statistics:
+Branch 1: selected 272.0 times (73.71% of samples)
+Branch 2: selected 97.0 times (26.29% of samples)
+
+{'f1_micro': 0.7896200185356813, 'f1_macro': 0.5983951038551892, 'loss': 0.5211040304928292, 'fusion_weight': 0.2628726363182068, 'flops': 7.349318027496338}
+Branch selection statistics:
+Branch 1: selected 272.0 times (73.71% of samples)
+Branch 2: selected 97.0 times (26.29% of samples)
+
+mean branch weight 0.7371, 0.2629
+0.2628726363182068

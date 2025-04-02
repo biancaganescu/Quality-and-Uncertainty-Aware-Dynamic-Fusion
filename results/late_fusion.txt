@@ -1,0 +1,170 @@
+Loaded split indices from split_indices.pth
+--------------------------------------------------
+Epoch 0 | Train loss 0.6867 | Train CE loss 0.6867 | Val loss 0.6173 | patience 0
+f1 micro: 0.500 | f1 macro: 0.184 
+Saving Best
+--------------------------------------------------
+Epoch 1 | Train loss 0.5000 | Train CE loss 0.5000 | Val loss 0.5528 | patience 0
+f1 micro: 0.524 | f1 macro: 0.251 
+Saving Best
+--------------------------------------------------
+Epoch 2 | Train loss 0.3976 | Train CE loss 0.3976 | Val loss 0.4505 | patience 0
+f1 micro: 0.662 | f1 macro: 0.327 
+Saving Best
+--------------------------------------------------
+Epoch 3 | Train loss 0.3068 | Train CE loss 0.3068 | Val loss 0.4018 | patience 0
+f1 micro: 0.582 | f1 macro: 0.365 
+Saving Best
+--------------------------------------------------
+Epoch 4 | Train loss 0.2361 | Train CE loss 0.2361 | Val loss 0.3042 | patience 0
+f1 micro: 0.729 | f1 macro: 0.465 
+Saving Best
+--------------------------------------------------
+Epoch 5 | Train loss 0.1984 | Train CE loss 0.1984 | Val loss 0.2925 | patience 0
+f1 micro: 0.723 | f1 macro: 0.449 
+--------------------------------------------------
+Epoch 6 | Train loss 0.1647 | Train CE loss 0.1647 | Val loss 0.3284 | patience 1
+f1 micro: 0.598 | f1 macro: 0.394 
+--------------------------------------------------
+Epoch 7 | Train loss 0.1384 | Train CE loss 0.1384 | Val loss 0.2877 | patience 2
+f1 micro: 0.687 | f1 macro: 0.441 
+--------------------------------------------------
+Epoch 8 | Train loss 0.1162 | Train CE loss 0.1162 | Val loss 0.2344 | patience 3
+f1 micro: 0.794 | f1 macro: 0.533 
+Saving Best
+--------------------------------------------------
+Epoch 9 | Train loss 0.1026 | Train CE loss 0.1026 | Val loss 0.2200 | patience 0
+f1 micro: 0.811 | f1 macro: 0.569 
+Saving Best
+--------------------------------------------------
+Epoch 10 | Train loss 0.0894 | Train CE loss 0.0894 | Val loss 0.2225 | patience 0
+f1 micro: 0.814 | f1 macro: 0.559 
+--------------------------------------------------
+Epoch 11 | Train loss 0.0809 | Train CE loss 0.0809 | Val loss 0.2199 | patience 1
+f1 micro: 0.789 | f1 macro: 0.522 
+--------------------------------------------------
+Epoch 12 | Train loss 0.0700 | Train CE loss 0.0700 | Val loss 0.2089 | patience 2
+f1 micro: 0.837 | f1 macro: 0.582 
+Saving Best
+--------------------------------------------------
+Epoch 13 | Train loss 0.0629 | Train CE loss 0.0629 | Val loss 0.2249 | patience 0
+f1 micro: 0.797 | f1 macro: 0.538 
+--------------------------------------------------
+Epoch 14 | Train loss 0.0564 | Train CE loss 0.0564 | Val loss 0.2116 | patience 1
+f1 micro: 0.808 | f1 macro: 0.558 
+--------------------------------------------------
+Epoch 15 | Train loss 0.0522 | Train CE loss 0.0522 | Val loss 0.2084 | patience 2
+f1 micro: 0.808 | f1 macro: 0.560 
+--------------------------------------------------
+Epoch 16 | Train loss 0.0481 | Train CE loss 0.0481 | Val loss 0.2058 | patience 3
+f1 micro: 0.839 | f1 macro: 0.597 
+Saving Best
+--------------------------------------------------
+Epoch 17 | Train loss 0.0421 | Train CE loss 0.0421 | Val loss 0.2028 | patience 0
+f1 micro: 0.842 | f1 macro: 0.595 
+--------------------------------------------------
+Epoch 18 | Train loss 0.0372 | Train CE loss 0.0372 | Val loss 0.2066 | patience 1
+f1 micro: 0.861 | f1 macro: 0.613 
+Saving Best
+--------------------------------------------------
+Epoch 19 | Train loss 0.0336 | Train CE loss 0.0336 | Val loss 0.1983 | patience 0
+f1 micro: 0.869 | f1 macro: 0.621 
+Saving Best
+--------------------------------------------------
+Epoch 20 | Train loss 0.0326 | Train CE loss 0.0326 | Val loss 0.1991 | patience 0
+f1 micro: 0.852 | f1 macro: 0.587 
+--------------------------------------------------
+Epoch 21 | Train loss 0.0280 | Train CE loss 0.0280 | Val loss 0.2124 | patience 1
+f1 micro: 0.865 | f1 macro: 0.619 
+--------------------------------------------------
+Epoch 22 | Train loss 0.0252 | Train CE loss 0.0252 | Val loss 0.2020 | patience 2
+f1 micro: 0.863 | f1 macro: 0.617 
+--------------------------------------------------
+Epoch 23 | Train loss 0.0229 | Train CE loss 0.0229 | Val loss 0.2000 | patience 3
+f1 micro: 0.852 | f1 macro: 0.601 
+--------------------------------------------------
+Epoch 24 | Train loss 0.0223 | Train CE loss 0.0223 | Val loss 0.2074 | patience 4
+f1 micro: 0.879 | f1 macro: 0.637 
+Saving Best
+--------------------------------------------------
+Epoch 25 | Train loss 0.0216 | Train CE loss 0.0216 | Val loss 0.2009 | patience 0
+f1 micro: 0.860 | f1 macro: 0.617 
+--------------------------------------------------
+Epoch 26 | Train loss 0.0192 | Train CE loss 0.0192 | Val loss 0.1925 | patience 1
+f1 micro: 0.857 | f1 macro: 0.621 
+--------------------------------------------------
+Epoch 27 | Train loss 0.0185 | Train CE loss 0.0185 | Val loss 0.1988 | patience 2
+f1 micro: 0.877 | f1 macro: 0.652 
+Saving Best
+--------------------------------------------------
+Epoch 28 | Train loss 0.0157 | Train CE loss 0.0157 | Val loss 0.1923 | patience 0
+f1 micro: 0.869 | f1 macro: 0.622 
+--------------------------------------------------
+Epoch 29 | Train loss 0.0150 | Train CE loss 0.0150 | Val loss 0.1995 | patience 1
+f1 micro: 0.860 | f1 macro: 0.629 
+--------------------------------------------------
+Epoch 30 | Train loss 0.0149 | Train CE loss 0.0149 | Val loss 0.1932 | patience 2
+f1 micro: 0.867 | f1 macro: 0.620 
+--------------------------------------------------
+Epoch 31 | Train loss 0.0146 | Train CE loss 0.0146 | Val loss 0.2235 | patience 3
+f1 micro: 0.866 | f1 macro: 0.622 
+--------------------------------------------------
+Epoch 32 | Train loss 0.0130 | Train CE loss 0.0130 | Val loss 0.1974 | patience 4
+f1 micro: 0.877 | f1 macro: 0.644 
+--------------------------------------------------
+Epoch 33 | Train loss 0.0115 | Train CE loss 0.0115 | Val loss 0.1976 | patience 5
+f1 micro: 0.882 | f1 macro: 0.649 
+--------------------------------------------------
+Epoch 34 | Train loss 0.0115 | Train CE loss 0.0115 | Val loss 0.2039 | patience 6
+f1 micro: 0.884 | f1 macro: 0.672 
+Saving Best
+--------------------------------------------------
+Epoch 35 | Train loss 0.0116 | Train CE loss 0.0116 | Val loss 0.1857 | patience 0
+f1 micro: 0.887 | f1 macro: 0.655 
+--------------------------------------------------
+Epoch 36 | Train loss 0.0090 | Train CE loss 0.0090 | Val loss 0.2024 | patience 1
+f1 micro: 0.888 | f1 macro: 0.648 
+--------------------------------------------------
+Epoch 37 | Train loss 0.0086 | Train CE loss 0.0086 | Val loss 0.1907 | patience 2
+f1 micro: 0.872 | f1 macro: 0.652 
+--------------------------------------------------
+Epoch 38 | Train loss 0.0088 | Train CE loss 0.0088 | Val loss 0.1970 | patience 3
+f1 micro: 0.882 | f1 macro: 0.647 
+--------------------------------------------------
+Epoch 39 | Train loss 0.0077 | Train CE loss 0.0077 | Val loss 0.2019 | patience 4
+f1 micro: 0.892 | f1 macro: 0.698 
+Saving Best
+--------------------------------------------------
+Epoch 40 | Train loss 0.0076 | Train CE loss 0.0076 | Val loss 0.2046 | patience 0
+f1 micro: 0.878 | f1 macro: 0.649 
+--------------------------------------------------
+Epoch 41 | Train loss 0.0071 | Train CE loss 0.0071 | Val loss 0.2049 | patience 1
+f1 micro: 0.889 | f1 macro: 0.676 
+--------------------------------------------------
+Epoch 42 | Train loss 0.0066 | Train CE loss 0.0066 | Val loss 0.2021 | patience 2
+f1 micro: 0.890 | f1 macro: 0.662 
+--------------------------------------------------
+Epoch 43 | Train loss 0.0076 | Train CE loss 0.0076 | Val loss 0.1884 | patience 3
+f1 micro: 0.888 | f1 macro: 0.647 
+--------------------------------------------------
+Epoch 44 | Train loss 0.0062 | Train CE loss 0.0062 | Val loss 0.1820 | patience 4
+f1 micro: 0.882 | f1 macro: 0.638 
+--------------------------------------------------
+Epoch 45 | Train loss 0.0067 | Train CE loss 0.0067 | Val loss 0.1935 | patience 5
+f1 micro: 0.877 | f1 macro: 0.629 
+--------------------------------------------------
+Epoch 46 | Train loss 0.0071 | Train CE loss 0.0071 | Val loss 0.2122 | patience 6
+f1 micro: 0.888 | f1 macro: 0.658 
+--------------------------------------------------
+Epoch 47 | Train loss 0.0060 | Train CE loss 0.0060 | Val loss 0.2080 | patience 7
+f1 micro: 0.891 | f1 macro: 0.660 
+Training Time: 564.9994585514069
+Training Peak Mem: 3004.8984375
+Training Params: 28795406
+Testing ./log/test_chestx/best_lf.pt
+f1_micro: 86.58 | f1_macro: 67.06
+tmp  {'f1_micro': 0.8658088235294117, 'f1_macro': 0.6705634758204313}
+[0.8658088235294117] [0.6705634758204313]
+Finish 1 runs
+f1 micro 86.58 ± 0.00
+f1 macro 67.06 ± 0.00

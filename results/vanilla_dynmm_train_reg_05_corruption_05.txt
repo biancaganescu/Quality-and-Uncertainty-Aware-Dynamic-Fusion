@@ -1,0 +1,85 @@
+Loaded split indices from split_indices.pth
+Creating noisy data loaders with consistent indices
+Loaded existing noise indices for train split from /home/bianca/Code/MultiBench/noise_indices/train_3bde5789f611136a90bea459d7941ed2_2941_64.json
+Loaded existing noise indices for val split from /home/bianca/Code/MultiBench/noise_indices/val_3bde5789f611136a90bea459d7941ed2_367_64.json
+Loaded existing noise indices for test split from /home/bianca/Code/MultiBench/noise_indices/test_3bde5789f611136a90bea459d7941ed2_369_64.json
+mean branch weight 0.6345, 0.3655
+--------------------------------------------------
+Epoch 0 | Train loss 0.2738 | Train CE loss 0.2511 | Val loss 0.3551 | patience 0
+f1 micro: 0.808 | f1 macro: 0.613 
+Saving Best
+mean branch weight 0.5145, 0.4855
+--------------------------------------------------
+Epoch 1 | Train loss 0.2716 | Train CE loss 0.2503 | Val loss 0.3509 | patience 0
+f1 micro: 0.788 | f1 macro: 0.605 
+mean branch weight 0.5658, 0.4342
+--------------------------------------------------
+Epoch 2 | Train loss 0.2794 | Train CE loss 0.2586 | Val loss 0.4089 | patience 1
+f1 micro: 0.786 | f1 macro: 0.412 
+mean branch weight 0.5774, 0.4226
+--------------------------------------------------
+Epoch 3 | Train loss 0.2483 | Train CE loss 0.2255 | Val loss 0.4173 | patience 2
+f1 micro: 0.796 | f1 macro: 0.587 
+mean branch weight 0.5993, 0.4007
+--------------------------------------------------
+Epoch 4 | Train loss 0.2462 | Train CE loss 0.2237 | Val loss 0.4174 | patience 3
+f1 micro: 0.797 | f1 macro: 0.585 
+mean branch weight 0.5222, 0.4778
+--------------------------------------------------
+Epoch 5 | Train loss 0.2531 | Train CE loss 0.2301 | Val loss 0.3851 | patience 4
+f1 micro: 0.803 | f1 macro: 0.601 
+mean branch weight 0.5345, 0.4655
+--------------------------------------------------
+Epoch 6 | Train loss 0.2357 | Train CE loss 0.2139 | Val loss 0.4148 | patience 5
+f1 micro: 0.790 | f1 macro: 0.602 
+mean branch weight 0.5831, 0.4169
+--------------------------------------------------
+Epoch 7 | Train loss 0.2790 | Train CE loss 0.2577 | Val loss 0.3918 | patience 6
+f1 micro: 0.792 | f1 macro: 0.625 
+Saving Best
+mean branch weight 0.5661, 0.4339
+--------------------------------------------------
+Epoch 8 | Train loss 0.2554 | Train CE loss 0.2309 | Val loss 0.4476 | patience 0
+f1 micro: 0.780 | f1 macro: 0.493 
+mean branch weight 0.5901, 0.4099
+--------------------------------------------------
+Epoch 9 | Train loss 0.2414 | Train CE loss 0.2191 | Val loss 0.3775 | patience 1
+f1 micro: 0.806 | f1 macro: 0.572 
+mean branch weight 0.6279, 0.3721
+--------------------------------------------------
+Epoch 10 | Train loss 0.2450 | Train CE loss 0.2235 | Val loss 0.3779 | patience 2
+f1 micro: 0.794 | f1 macro: 0.569 
+mean branch weight 0.6004, 0.3996
+--------------------------------------------------
+Epoch 11 | Train loss 0.2503 | Train CE loss 0.2287 | Val loss 0.4146 | patience 3
+f1 micro: 0.771 | f1 macro: 0.470 
+mean branch weight 0.5919, 0.4081
+--------------------------------------------------
+Epoch 12 | Train loss 0.2517 | Train CE loss 0.2306 | Val loss 0.4356 | patience 4
+f1 micro: 0.773 | f1 macro: 0.545 
+mean branch weight 0.6386, 0.3614
+--------------------------------------------------
+Epoch 13 | Train loss 0.2484 | Train CE loss 0.2281 | Val loss 0.3336 | patience 5
+f1 micro: 0.793 | f1 macro: 0.585 
+mean branch weight 0.5901, 0.4099
+--------------------------------------------------
+Epoch 14 | Train loss 0.2502 | Train CE loss 0.2270 | Val loss 0.3722 | patience 6
+f1 micro: 0.808 | f1 macro: 0.612 
+mean branch weight 0.5741, 0.4259
+--------------------------------------------------
+Epoch 15 | Train loss 0.2466 | Train CE loss 0.2252 | Val loss 0.4637 | patience 7
+f1 micro: 0.748 | f1 macro: 0.435 
+Training Time: 287.94017267227173
+Training Peak Mem: 2866.20703125
+Training Params: 57854252
+Testing model ./log/test_chestx/DynMMNet_freezeTrue_reg_0.05_noise_corruption_05.pt:
+------------------------------Test data------------------------------
+f1_micro: 69.69 | f1_macro: 39.47
+Branch selection statistics:
+Branch 1: selected 305.0 times (82.66% of samples)
+Branch 2: selected 64.0 times (17.34% of samples)
+
+mean branch weight 0.8266, 0.1734
+0.17344173789024353
+Total Flops 5.59M
+0.6968641114982578 0.3947380255862357 5.592514514923096
