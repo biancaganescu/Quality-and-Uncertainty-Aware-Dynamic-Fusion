@@ -46,7 +46,7 @@ To replicate our experiments, simply run:
 ```
 sh run_text_corruption_tests.sh
 sh run_image_corruption_tests.sh
-
+```
 # Helper files
 
 The functions that add noise and load noisy ChestX data are available in ```noise.py```.
