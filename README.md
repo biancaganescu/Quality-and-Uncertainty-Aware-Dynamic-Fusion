@@ -16,7 +16,7 @@ To reproduce our results:
 
 (6) Download the ChestX dataset following the mm-health-bench instructions.
 
-Training experts:
+## Training experts:
 ```
 # train text-only expert
 python chestx_uni.py --mod 0
@@ -26,7 +26,7 @@ python chestx_mm.py --fuse 1
 
 ```
 
-Training dynamic networks on (noisy) data:
+## Training dynamic networks on (noisy) data:
 ```
 # For vanilla DynMM
 python chestx_dynmm_2branches.py (--freeze) (--noise) (--noise_config <predefined noise.py congiguration>) --reg <lambda/resource allocation parameter>
@@ -39,6 +39,15 @@ python chestx_dynmm_uq_2branches.py (--freeze) (--noise) (--noise_config <predef
 ```
 
 The models are tested at the end with test data of the same corruption type using a held-out test dataset.
+All models are saved in ./logs/chestx
+
+# Replicating our experiments
+To replicate our experiments, simply run:
+```
+sh run_text_corruption_tests.sh
+sh run_image_corruption_tests.sh
+
+# Helper files
 
 The functions that add noise and load noisy ChestX data are available in ```noise.py```.
 
