@@ -5,7 +5,6 @@ import random
 import sys 
 import os 
 sys.path.append(os.getcwd())
-sys.path.append('/home/bianca/Code/MultiBench/mm_health_bench/mmhb')
 from torch.utils.data import Subset
 import torch
 from torch.utils.data import DataLoader
@@ -37,7 +36,7 @@ class NoiseAugmenter:
     
     @staticmethod
     def reduce_image_quality(image, blur_factor=1.5, noise_level=0):
-        kernel_size = int(blur_factor * 2) * 2 + 1  # Ensure odd kernel size
+        kernel_size = int(blur_factor * 2) * 2 + 1  
         blurred = torchvision.transforms.functional.gaussian_blur(image, kernel_size=[kernel_size, kernel_size], 
                                  sigma=[blur_factor, blur_factor])
         
