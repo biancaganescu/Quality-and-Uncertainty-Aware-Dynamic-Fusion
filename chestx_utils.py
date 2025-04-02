@@ -183,7 +183,6 @@ if __name__ == '__main__':
     train_loader, val_loader, test_loader = get_data()
 
     for batch in train_loader:
-    # If your loader returns just data
         print(batch[1].shape)
         break
     # print("TRAINING SET:")
