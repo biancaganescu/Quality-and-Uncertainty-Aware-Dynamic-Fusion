@@ -1,5 +1,5 @@
 # Quality-and-Uncertainty-Aware-Dynamic-Fusion
-We extend [DynMM](https://github.com/zihuixue/DynMM) repository the with quality assessor and uncertainty estimator modules to improve robustness against poor-quality or corrupt data.
+We extend the [DynMM](https://github.com/zihuixue/DynMM) repository the with quality assessor and uncertainty estimator modules and quality and uncertainty-aware loss function in order to improve robustness against poor-quality or corrupt data.
 
 ## Setup:
 To reproduce our results:
