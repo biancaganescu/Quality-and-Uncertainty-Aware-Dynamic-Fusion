@@ -25,7 +25,6 @@ def compute_pos_weights(train_loader):
     
     pos_weights = num_neg / (num_pos + 1e-5)  
     
-    # Cap weights to prevent extreme values (optional)
     pos_weights = torch.clamp(pos_weights, min=0.5, max=10.0)
     
     return pos_weights.cuda()
