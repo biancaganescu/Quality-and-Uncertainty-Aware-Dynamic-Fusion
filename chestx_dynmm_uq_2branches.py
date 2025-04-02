@@ -135,41 +135,31 @@ class DynMMNet(nn.Module):
         text_input = inputs[0]
         batch_size = text_input.size(0)
         
-        # Get features
         text_features = self.text_encoder(text_input)
         image_features = self.image_encoder(inputs[1]).view(batch_size, -1)
         
-        # Quality assessment
         text_quality = self.text_quality(text_features)
         image_quality = self.image_quality(image_features)
         
-        # Get uncertainty estimates
         text_uncertainty = self.text_uncertainty(text_features)
         fusion_features = torch.cat([text_features, image_features], dim=1)
         fusion_uncertainty = self.fusion_uncertainty(fusion_features)
         
-        # Quality-weighted features
         text_quality_expanded = text_quality.expand_as(text_features)
         image_quality_expanded = image_quality.expand_as(image_features)
         weighted_text_features = text_features * text_quality_expanded
         weighted_image_features = image_features * image_quality_expanded
         
-        # Apply inverse uncertainty weighting to text features
         text_confidence = 1.0 - text_uncertainty
         text_confidence_expanded = text_confidence.expand_as(text_features)
         weighted_text_features = weighted_text_features * text_confidence_expanded
         
-        # Apply inverse fusion uncertainty to weighted image features
-        # This reflects the idea that high fusion uncertainty should reduce reliance on complex features
         fusion_confidence = 1.0 - fusion_uncertainty
         fusion_confidence_expanded = fusion_confidence.expand_as(image_features)
         weighted_image_features = weighted_image_features * fusion_confidence_expanded
         
-        # Combined weighted features for fusion
         combined_features = torch.cat([weighted_text_features, weighted_image_features], dim=1)
         
-        # TODO: experiment with keeping text quality and uncertainty
-        # Gate input with quality and uncertainty information
         scaling_factor = 1
         x = torch.cat([
             weighted_text_features,
