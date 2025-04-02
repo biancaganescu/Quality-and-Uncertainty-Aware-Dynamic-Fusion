@@ -1,7 +1,6 @@
 import sys 
 import os 
 sys.path.append(os.getcwd())
-sys.path.append('/home/bianca/Code/MultiBench/mm_health_bench/mmhb')
 from torch.utils.data import random_split, Subset
 import torch
 from torch.utils.data import DataLoader, Dataset
